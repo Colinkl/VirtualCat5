@@ -32,7 +32,7 @@ void Menu::punishDialog()
 	cin >> h;
 	if (cat->GetHeath() - h <= 0)
 	{
-		cout << "You are going to kill cat. Proceed?[y/n]";
+		cout << color < 4, 0> << "You are going to kill cat. Proceed?[y/n]";
 		cin >> a;
 		if (a == "n")
 		{

@@ -8,5 +8,5 @@ int main()
 {
     App a;
     a.Start();
-
+    return 1;
 }
