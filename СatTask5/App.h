@@ -1,6 +1,8 @@
 #pragma once
 #include"Cat.h"
 #include <string>
+#include<windows.h>
+#include "Menu.h"
 using namespace std;
 
 
@@ -14,6 +16,6 @@ private:
 	Cat* cat;
 	void worker();
 	bool isRunning;
-	
+
 };
 

@@ -1,6 +1,7 @@
 #include "App.h"
 
 
+
 void App::Start()
 {
 	printf("Create new Cat? [Y/n]:\t");
@@ -28,8 +29,17 @@ void App::Start()
 	this->worker();
 }
 
+
 void App::worker()
 {
-	
+	Menu* m = new Menu(cat);
+	while (isRunning == true) {
+		m->ShowMenu();
+		m->SelectOption();
+		if (cat->GetHeath() == 0)
+		{
+			isRunning = false;
+		}
+	}
 
 }

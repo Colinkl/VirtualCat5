@@ -9,7 +9,7 @@ void Cat::updateColor()
 	{
 		color = 14;
 	}
-	else if (health > 10)
+	else if (health > 5)
 	{
 		color = 4;
 
